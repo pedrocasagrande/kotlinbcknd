@@ -1,0 +1,9 @@
+greeting-service:
+  greeting: "Ol� "
+  default-value: "Mundo - PERFIL"
+management:
+  endpoints:
+    web:
+      exposure:
+        include:
+          - '*'

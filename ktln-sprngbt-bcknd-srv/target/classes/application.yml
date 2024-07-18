@@ -1,0 +1,8 @@
+server:
+  port: 8888
+spring:
+  application:
+    name: ktln-sprngbt-bcknd-srv
+  profiles:
+    active:
+      - native

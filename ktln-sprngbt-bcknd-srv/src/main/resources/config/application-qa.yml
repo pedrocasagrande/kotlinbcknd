@@ -1,0 +1,9 @@
+greeting-service:
+  greeting: "Olá "
+  default-value: "Mundo - QA"
+management:
+  endpoints:
+    web:
+      exposure:
+        include:
+          - '*'

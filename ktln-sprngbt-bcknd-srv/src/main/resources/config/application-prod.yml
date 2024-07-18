@@ -1,0 +1,9 @@
+greeting-service:
+  greeting: "Olá "
+  default-value: "Mundo - PRD"
+management:
+  endpoints:
+    web:
+      exposure:
+        include:
+          - '*'
